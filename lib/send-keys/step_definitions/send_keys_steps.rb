@@ -7,6 +7,6 @@
 
 # And I send "hello" to "#element"
 # And /^I send (#{allowed_keys.join('|')}) to "([^\"]*)"$/ do |key, element|
-And /^I send (.*) to "(.*)"$/ do |key, element|
-  find(element).send_string_of_keys(key)
-end
+#And /^I send (.*) to "(.*)"$/ do |key, element|
+#  find(element).send_string_of_keys(key)
+#end
